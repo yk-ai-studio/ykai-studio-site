@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Claude Artifact preview file — not part of the deployed site
+# (large, contains an embedded base64 copy of the logo for preview-only purposes)
+artifact-preview.html
+
+# Local test artifacts
+*.log
