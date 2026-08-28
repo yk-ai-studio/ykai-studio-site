@@ -48,7 +48,7 @@ from the actual film — that's a judgment call, not a requirement.
 
 ## STEP 8 — Links checked
 
-- Email: `mailto:yuki@ykai.studio` — confirmed working format
+- Email: `mailto:hello@ykai.studio` — confirmed working format
 - Instagram: currently linked as `https://instagram.com/ykai.studio` in two
   places (Contact section + footer). **This is a placeholder handle and has
   not been confirmed against the real account.** Before going live, search
