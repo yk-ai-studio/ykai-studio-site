@@ -34,12 +34,17 @@ Already set in `<head>` of `index.html`:
 - A minimal inline SVG favicon (a plain "YK" monogram) — works immediately,
   no external file needed
 
-**You still need to do one thing**: `og:image` currently points to
-`https://ykai.studio/og-image.jpg`, which doesn't exist yet. Create a
-1200×630px image (a still from "First Light" once it exists, or a clean
-shot of the logo on white) and place it at `assets/og-image.jpg`, then
-update the two `og:image` / `twitter:image` lines in `index.html` to point
-to it.
+`assets/og-image.jpg` (1200×630px) exists and is wired up via the
+`og:image` / `twitter:image` tags. It was generated from
+`og-card-source.html` (not part of the deployed site — a local-only build
+source, ignored by git) rendered at exact 1200×630 resolution via
+Playwright, using the site's real fonts/colors and the untouched logo
+file. To regenerate after a copy change: edit `og-card-source.html`,
+serve the folder locally, screenshot it at 1200×630, and re-export as
+`assets/og-image.jpg`.
+
+Once "First Light" is finished, you may prefer to swap this for a still
+from the actual film — that's a judgment call, not a requirement.
 
 ## STEP 8 — Links checked
 

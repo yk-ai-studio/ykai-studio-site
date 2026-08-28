@@ -7,3 +7,7 @@ artifact-preview.html
 
 # Local test artifacts
 *.log
+
+# OGP card build source (kept locally for regenerating og-image.jpg later;
+# not a page of the site itself, see README)
+og-card-source.html
