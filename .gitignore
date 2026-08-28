@@ -11,3 +11,6 @@ artifact-preview.html
 # OGP card build source (kept locally for regenerating og-image.jpg later;
 # not a page of the site itself, see README)
 og-card-source.html
+
+# Cloudflare wrangler local cache (contains account email/ID)
+.wrangler/
