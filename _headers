@@ -1,0 +1,5 @@
+# Cloudflare Pages response headers.
+# The whole site is one small self-contained HTML file, so don't let
+# intermediaries hold a stale copy — always revalidate.
+/*
+  Cache-Control: no-cache
